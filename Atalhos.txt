@@ -1,2 +1,5 @@
 Localizar e Substituir Palavras
 > Ctrl + F
+
+Criar estrutura básica de HTML automaticamente
+> Digite (! + enter) dentro de um arquivo .html 
