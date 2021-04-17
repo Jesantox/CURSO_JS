@@ -6,3 +6,6 @@ Criar estrutura básica de HTML automaticamente
 
 Indentar um arquivo
 > Shift + alt + F
+
+Colar comandos no lado Esquerdo do arquivo
+> Shift + TAB
