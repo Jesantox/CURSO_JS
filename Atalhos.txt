@@ -9,3 +9,6 @@ Indentar um arquivo
 
 Colar comandos no lado Esquerdo do arquivo
 > Shift + TAB
+
+Abrir um link JS em HTML
+> Ctrl + clique do mouse na URL
