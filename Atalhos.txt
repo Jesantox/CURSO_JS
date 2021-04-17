@@ -3,3 +3,6 @@ Localizar e Substituir Palavras
 
 Criar estrutura básica de HTML automaticamente
 > Digite (! + enter) dentro de um arquivo .html 
+
+Indentar um arquivo
+> Shift + alt + F
