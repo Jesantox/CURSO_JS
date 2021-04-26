@@ -37,4 +37,62 @@ console.log(base ** 2);
 // 4º -> - | +
 
 
+// ----------------------------------------------------------
+
+// incremento (um valor = ele mesmo + 1 | acúmulo)
+// const acumulador = acumulador + 1;
+
+let acumulador = 1;
+acumulador++;
+console.log(acumulador);
+
+// Diferença entre incremento pré e pós
+
+acumulador = 1;
+console.log(acumulador++); // aqui ainda vai ser 1 o valor
+// nessa linha o acumulador vale 2
+
+// Como resolver isso? usa o ++ antes da variável.
+console.log(++acumulador);
+
+// ou então primeiro acumular e depois exibir.
+acumulador = 1;
+acumulador++
+console.log(acumulador);
+
+// Tem tbm o DECREMENTO (um valor = ele mesmo - 1) a regra é a mesma
+
+// Quando queremos incrementar ou decrementar em valores diferentes
+// temos que especificar de quanta em quanta irá acontecer
+
+acumulador = 0
+acumulador = acumulador + 2; // irá somar de dois em dois 
+
+// outra forma 
+acumulador += 2; // 4
+acumulador += 2; // 6
+acumulador += 2; // 8
+console.log(acumulador); // 8 -> valor final do acumulador
+
+// O mesmo acontece com DECREMENTO
+
+acumulador = 30
+acumulador = acumulador - 2; // irá subtrair de dois em dois 
+
+// outra forma
+acumulador -= 2; // 26
+acumulador -= 2; // 24
+console.log(acumulador); // 24 -> valor fina do acumulador
+ 
+// ---------------------------------------------------------
+
+// É possível tbm fazer Incremento com Potenciação (**)
+acumulador = 2;
+acumulador **= 2; // o mesmo que acumulador = acumulador * 2
+console.log(acumulador);
+
+// É possível tbm fazer Decremento com Potenciação (**)
+acumulador = 20;
+acumulador **=- 2; // o mesmo que acumulador = acumulador * 2
+console.log(acumulador);
 
