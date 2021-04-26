@@ -27,8 +27,14 @@ const concatenacao02 = '30';
 console.log(concatenacao01 + concatenacao02);
 
 // expoentes em valores
-
 const base = 5;
 console.log(base ** 2);
+
+// Precedência 
+// 1º -> ()
+// 2º -> **
+// 3º -> * | / | %
+// 4º -> - | +
+
 
 
