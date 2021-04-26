@@ -125,4 +125,24 @@ console.log(exemplo01 * exemplo02); // será feito MULTIPLICAÇÃO
 // A linguagem reconhece que dentro da String há um número. Logo, o JS converte
 // a String para Number.
 
+// --------------------------------------------------------
+
+// CONVERTENDO VALORES
+
+exemplo01 = 14;
+exemplo02 = parseInt('13.8'); // convertendo em para Int
+console.log(exemplo01 + exemplo02);
+
+exemplo01 = 14;
+exemplo02 = parseFloat('13.8'); // convertendo em para Float
+console.log(exemplo01 + exemplo02);
+
+exemplo01 = 14;
+exemplo02 = Number('13.8');
+console.log(exemplo01 + exemplo02);
+
+// essa última maneira é a melhor. Pois sendo um 'number',
+// a linguagem irá identificar automaticamente se o numero tem ou não casas decimais
+// Afinal, tudo é number. 
+
 
