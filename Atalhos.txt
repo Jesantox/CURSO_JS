@@ -12,3 +12,9 @@ Colar comandos no lado Esquerdo do arquivo
 
 Abrir um link JS em HTML
 > Ctrl + clique do mouse na URL
+
+Mover Linha para cima 
+> alt + seta p/ cima
+
+Mover Linha para baixo 
+> alt + seta p/ baixo
