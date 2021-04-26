@@ -21,4 +21,14 @@ const reprovado = false; // Valor boolean
 // vendo o tipo e o valor de uma variável
 console.log(typeof nome0, nome0);
 
+// concatenando valores
+const concatenacao01 = '20';
+const concatenacao02 = '30';
+console.log(concatenacao01 + concatenacao02);
+
+// expoentes em valores
+
+const base = 5;
+console.log(base ** 2);
+
 
