@@ -96,3 +96,33 @@ acumulador = 20;
 acumulador **=- 2; // o mesmo que acumulador = acumulador * 2
 console.log(acumulador);
 
+// --------------------------------------------------------
+
+// toma cuidado com os tipos dos valores.
+// Dependendo da operação e o do tipo de cada variável
+
+let exemplo01 = 12; // isso é um number
+let exemplo02 = 'luiz'; // isso é uma String
+
+let conta = exemplo01 * exemplo02;
+console.log(conta);
+
+// Irá ocasionar o erro (NaN - Not a Number)
+
+// --------------------------------------------------------
+
+exemplo01 = 12;
+exemplo02 = '12';
+console.log(exemplo01 + exemplo02); // será feito uma CONCATENAÇÃO
+
+// --------------------------------------------------------
+
+exemplo01 = 12;
+exemplo02 = '12';
+console.log(exemplo01 * exemplo02); // será feito MULTIPLICAÇÃO
+
+// Acontece isso porque independente de ser uma String. 
+// A linguagem reconhece que dentro da String há um número. Logo, o JS converte
+// a String para Number.
+
+
