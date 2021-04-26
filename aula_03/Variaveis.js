@@ -34,3 +34,9 @@ nome01 = 'Roberta' // Atribui outro valor para uma mesma variável
 // Não é permitido 're-declarar' variáveis
 // A partir de agora a variável 'nome01' contém o valor 'Roberta'
 console.log(nome01)
+
+// ---------------------------------------------------------------
+
+// Diferença entre VAR e LET 
+// com VAR é possível redeclarar uma variável
+// com LET só se pode declarar uma vez 
