@@ -47,7 +47,7 @@ console.log(`A palavra 'dormir' começa no index : ${frase.indexOf('dormir', 5)}
    Irá procurar o index inicial da palavra dormir a partir do index indicado
    No caso, index 5. Porem começando do FIM para o INÍCIO da String */
 
-console.log(`A palavra 'dormir' começa no index : ${frase.indexOf('dormir', 5)}`);
+console.log(`A palavra 'dormir' começa no index : ${frase.lestIndexOf('dormir')}`);
 
 // ----------------------------MÉTODO REPLACE-----------------------------------
 
@@ -86,7 +86,7 @@ console.log(frase.slice(-7));
 // Remove coletivamente caracteres específicados.
 
 frase = 'Jean Pablo Costa Dos Santos';
-console.log(frase.split(' ')); // irá agrupara cada apalavra em um index
+console.log(frase.split(' ')); // irá agrupara cada palavra em um index
 
 // Usando com valores negativos
 // Servem para capturar valores que estão no fim da String
