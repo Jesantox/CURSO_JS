@@ -24,3 +24,6 @@ Localizar no documento a declaração de cada variável
 
 Seleção de Multi linhas
 > Ctrl + alt + shift
+
+Seleção de todas as linhas antes do Cursor
+> shift + Pg Up
