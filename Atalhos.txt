@@ -30,3 +30,6 @@ Seleção de todas as linhas antes do Cursor
 
 Seleção de todas as linhas depois do Cursor
 > shift + Pg Dn
+
+Copiar linha para a próxima linha
+> alt + shift + seta p/ baixo
