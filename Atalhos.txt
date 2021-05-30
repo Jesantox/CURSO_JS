@@ -27,3 +27,6 @@ Seleção de Multi linhas
 
 Seleção de todas as linhas antes do Cursor
 > shift + Pg Up
+
+Seleção de todas as linhas depois do Cursor
+> shift + Pg Dn
