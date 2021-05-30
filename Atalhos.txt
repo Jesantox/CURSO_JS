@@ -21,3 +21,6 @@ Mover Linha para baixo
 
 Localizar no documento a declaração de cada variável
 > Ctrl + shift + .
+
+Seleção de Multi linhas
+> Ctrl + alt + shift
